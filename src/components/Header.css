@@ -1,0 +1,25 @@
+.header {
+  background-color: white;
+  padding: 2em 3em;
+}
+
+.state-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 6%;
+  border: 1px #00000030 solid;
+  border-radius: 3px;
+  padding: 0.1em 0.3em;
+  cursor: pointer;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.521);
+}
+
+.state-display-drop-container {
+  width: 16%;
+  background-color: #f4f5f8;
+  border-radius: 0.5em;
+  padding: 1.5em 0;
+  margin-top: 0.7em;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.521);
+}

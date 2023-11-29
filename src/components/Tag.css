@@ -1,0 +1,9 @@
+.feature-request{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .2em;
+    border: 1px rgba(0, 0, 0, 0.115) solid;
+    width: fit-content;
+    border-radius: .2em;
+}

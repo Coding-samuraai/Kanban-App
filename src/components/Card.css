@@ -1,0 +1,59 @@
+.card {
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.521);
+  height: 8.5em;
+  margin: 0 0 .7em 0;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.card-middle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.status-icon {
+  margin-right: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priority-icon {
+  padding: 0.2em;
+  border: 1px rgba(0, 0, 0, 0.115) solid;
+  width: fit-content;
+  border-radius: 0.2em;
+  margin-right: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-available {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

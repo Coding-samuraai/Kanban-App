@@ -1,0 +1,14 @@
+.board-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.board-top-left,
+.board-top-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}

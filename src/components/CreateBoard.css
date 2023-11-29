@@ -1,0 +1,10 @@
+.create-board {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.create-board-child {
+  width: 18em;
+}
